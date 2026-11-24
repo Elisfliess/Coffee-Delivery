@@ -23,7 +23,7 @@
 | OpenCode (modelo Big Pickle) | Escrever testes e executar a suíte. | 4 arquivos de teste, 15 testes aprovados com Vitest + Testing Library. |
 | OpenCode (modelo Big Pickle) | Produzir documentação do projeto. | `PRD_SPEC.md`, `TECH_SPEC.md`, `TASKS_SPEC.md`, `AGENTS.md`, `README.md` e este registro. |
 | Gerador de imagem de IA | Tentativa de criar a logomarca. | **Falhou** por credencial inválida; não gerou asset utilizado. |
-| Autor do projeto (aluno) | Criar a logomarca definitiva. | `public/logo.png`: arquivo PNG criado pelo aluno, com fundo transparente, integrado ao cabeçalho e ao favicon pelo assistente. |
+| Autor do projeto (aluno) | Criar a logomarca definitiva. | `public/logo.png`: arquivo PNG criado pelo aluno, com fundo claro, integrado ao cabeçalho e ao favicon pelo assistente. |
 | Assistente de IA de desenvolvimento | Integrar a logo e adaptar a documentação. | Substituição do asset provisório, ajuste de caminhos e registro da autoria real. |
 
 ### 1.1 Sobre a logo
