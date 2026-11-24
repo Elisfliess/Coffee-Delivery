@@ -1,0 +1,93 @@
+import type { Coffee } from '../types'
+
+export const coffees: Coffee[] = [
+  {
+    id: 'expresso-tradicional',
+    name: 'Expresso Tradicional',
+    description: 'O tradicional café feito com água quente e grãos moídos',
+    price: 9.9,
+    tags: ['Tradicional'],
+    category: 'expresso',
+    color: '#5b3a29',
+    accent: '#f2c98b',
+  },
+  {
+    id: 'expresso-americano',
+    name: 'Expresso Americano',
+    description: 'Expresso diluído, menos intenso que o tradicional',
+    price: 9.9,
+    tags: ['Tradicional'],
+    category: 'expresso',
+    color: '#7a4b2a',
+    accent: '#e8b877',
+  },
+  {
+    id: 'expresso-cremoso',
+    name: 'Expresso Cremoso',
+    description: 'Café expresso tradicional com espuma cremosa',
+    price: 9.9,
+    tags: ['Tradicional', 'Cremoso'],
+    category: 'cremoso',
+    color: '#8a4f27',
+    accent: '#ffd9a0',
+  },
+  {
+    id: 'expresso-gelado',
+    name: 'Expresso Gelado',
+    description: 'Bebida preparada com café expresso e cubos de gelo',
+    price: 9.9,
+    tags: ['Tradicional', 'Gelado'],
+    category: 'gelado',
+    color: '#3f5d63',
+    accent: '#a9e4ec',
+  },
+  {
+    id: 'cafe-com-leite',
+    name: 'Café com Leite',
+    description: 'Café expresso misturado com um pouco de leite quente',
+    price: 9.9,
+    tags: ['Tradicional', 'Com leite'],
+    category: 'cremoso',
+    color: '#b07a4a',
+    accent: '#fff1d6',
+  },
+  {
+    id: 'latte',
+    name: 'Latte',
+    description: 'Café expresso com calda de chocolate, pouco leite e espuma',
+    price: 9.9,
+    tags: ['Tradicional', 'Com leite'],
+    category: 'cremoso',
+    color: '#9c6742',
+    accent: '#f6d8b8',
+  },
+  {
+    id: 'cappuccino',
+    name: 'Cappuccino',
+    description: 'Café com leite cremoso e uma camada de espuma',
+    price: 9.9,
+    tags: ['Tradicional', 'Com leite', 'Cremoso'],
+    category: 'cremoso',
+    color: '#a8764c',
+    accent: '#fbe2bd',
+  },
+  {
+    id: 'macchiato',
+    name: 'Macchiato',
+    description: 'Café expresso com um toque de leite e espuma',
+    price: 9.9,
+    tags: ['Tradicional', 'Com leite'],
+    category: 'cremoso',
+    color: '#6b4227',
+    accent: '#eec58e',
+  },
+]
+
+export const coffeeById = new Map(coffees.map((coffee) => [coffee.id, coffee]))
+
+export const categories = [
+  { id: 'all', label: 'Todos' },
+  { id: 'expresso', label: 'Expresso' },
+  { id: 'cremoso', label: 'Cremoso' },
+  { id: 'gelado', label: 'Gelado' },
+] as const
