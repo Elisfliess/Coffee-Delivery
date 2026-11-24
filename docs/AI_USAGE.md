@@ -23,16 +23,17 @@
 | OpenCode (modelo Big Pickle) | Escrever testes e executar a suíte. | 4 arquivos de teste, 15 testes aprovados com Vitest + Testing Library. |
 | OpenCode (modelo Big Pickle) | Produzir documentação do projeto. | `PRD_SPEC.md`, `TECH_SPEC.md`, `TASKS_SPEC.md`, `AGENTS.md`, `README.md` e este registro. |
 | Gerador de imagem de IA | Tentativa de criar a logomarca. | **Falhou** por credencial inválida; não gerou asset utilizado. |
-| Assistente de IA de desenvolvimento | Criar a logo vetorial definitiva em SVG. | `public/logo.svg`: xícara + motivação de entrega, paleta marrom/caramelo. |
+| Autor do projeto (aluno) | Criar a logomarca definitiva. | `public/logo.png`: arquivo PNG criado pelo aluno, com fundo transparente, integrado ao cabeçalho e ao favicon pelo assistente. |
+| Assistente de IA de desenvolvimento | Integrar a logo e adaptar a documentação. | Substituição do asset provisório, ajuste de caminhos e registro da autoria real. |
 
 ### 1.1 Sobre a logo
 
-A identidade visual final **não** veio do gerador de imagem. Após a falha de autenticação da ferramenta de geração de imagens, a solução adotada foi um SVG original escrito com apoio do assistente de desenvolvimento:
+A identidade visual final **não** veio do gerador de imagem de IA. Após a falha de autenticação da ferramenta, o próprio autor do projeto criou a logo e forneceu o arquivo `logo_cafeteria.png`, que foi versionado como `public/logo.png`:
 
-- `public/logo.svg` — usado como favicon e no cabeçalho.
-- `src/components/CoffeeIllustration.tsx` — ilustração vetorial paramétrica de cada embalagem, com cores vindas de `src/data/coffees.ts`.
+- `public/logo.png` — usado como favicon e no cabeçalho.
+- `src/components/CoffeeIllustration.tsx` — ilustração vetorial paramétrica de cada embalagem, com cores vindas de `src/data/coffees.ts`, criada com apoio do assistente e mantida como complemento visual.
 
-A escolha evitou depender de credencial externa e manteve os assets leves, escaláveis e versionáveis.
+A autoria da logomarca é do aluno; a IA atuou apenas na integração técnica e na documentação.
 
 ---
 
@@ -90,7 +91,7 @@ A escolha evitou depender de credencial externa e manteve os assets leves, escal
 | Modelagem e catálogo | `src/types.ts`, `src/data/coffees.ts` | 8 cafés, categorias e mapa por id. |
 | Interface | `src/App.tsx`, `src/main.tsx`, `src/components/*`, `src/pages/*`, `src/styles/global.css` | Rotas, layout, cards, drawer, checkout e confirmação. |
 | Estado e regras | `src/contexts/*`, `src/lib/format.ts`, `src/lib/checkoutSchema.ts` | Carrinho, pedido, tema, UI, formatação e validação. |
-| Identidade visual | `public/logo.svg`, `src/components/CoffeeIllustration.tsx` | SVG originais; gerador de imagem não foi usado no resultado final. |
+| Identidade visual | `public/logo.png`, `src/components/CoffeeIllustration.tsx` | Logo criada pelo aluno; ilustrações de embalagens com apoio do assistente; gerador de imagem não foi usado no resultado final. |
 | Testes | `src/test/*`, `src/lib/*.test.ts`, `src/contexts/cartReducer.test.ts` | 15 testes aprovados. |
 | Evidências visuais | `scripts/capture-evidence.mjs`, `docs/evidence/*.png` | 8 capturas presentes; as mobile são regeneráveis com `npm run evidence`. |
 | Documentação | `PRD_SPEC.md`, `TECH_SPEC.md`, `TASKS_SPEC.md`, `AGENTS.md`, `README.md`, `docs/AI_USAGE.md` | Ajustada para refletir apenas o implementado e as pendências de conferência humana. |
@@ -130,7 +131,7 @@ Nenhum desses itens foi marcado como aprovado por pessoa neste documento.
 
 | Limitação | Impacto | Como foi tratada |
 | --- | --- | --- |
-| Gerador de imagem indisponível (credencial inválida) | Não foi possível produzir a logo por IA de imagem. | Logo substituída por SVG original criado com apoio do assistente de desenvolvimento; registro mantido neste documento. |
+| Gerador de imagem indisponível (credencial inválida) | Não foi possível produzir a logo por IA de imagem. | Logo criada pelo autor do projeto e integrada como `public/logo.png`; registro mantido neste documento. |
 | Ausência de backend | Dados são locais e não persistem entre dispositivos. | Escopo documentado como fictício; armazenamento versionado por navegador. |
 | Testes em jsdom | Não validam renderização real nem interação visual por conta própria. | Checklist em `TECH_SPEC.md` e navegação automatizada em navegador; 8 evidências foram geradas em `docs/evidence/` (`home-light.png`, `cart-drawer.png`, `home-dark.png`, `checkout.png`, `success.png`, `mobile-light.png`, `mobile-cart.png`, `mobile-dark.png`), pendentes de conferência visual humana. |
 | Avisos do React Router sobre future flags da v7 | Aparecem no stderr dos testes; não são falhas. | Registrados em `TECH_SPEC.md` como avisos, sem alteração de configuração. |
@@ -145,7 +146,7 @@ Nenhum desses itens foi marcado como aprovado por pessoa neste documento.
 - **Prompts com restrições:** indicar arquivos alvo, regras de negócio e o que não fazer (por exemplo, "sem pagamento real").
 - **Fontes da verdade:** catálogo em `data/coffees.ts`, preço e entrega em `lib/format.ts`, validação em `lib/checkoutSchema.ts`; a IA não inventou valores paralelos.
 - **Validação automática:** testes, typecheck, build e navegação automatizada em navegador após mudanças relevantes; nada disso é apresentado como aprovação humana.
-- **Transparência:** falha da geração de imagem registrada, assim como a origem da logo final e as limitações dos testes.
+- **Transparência:** falha da geração de imagem registrada, assim como a autoria da logo pelo aluno e as limitações dos testes.
 - **Conferência humana pendente:** regras em `AGENTS.md` indicam o que ainda precisa de validação por pessoa em código, acessibilidade, segurança, documentação e publicação.
 - **Sem segredos:** nenhuma credencial, token ou dado pessoal real foi incluído em código, documentação ou prompts registrados.
 - **Documentação como espelho do código:** ao revisar um documento, confrontar com a implementação antes de afirmar algo como concluído.

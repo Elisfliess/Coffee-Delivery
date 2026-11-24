@@ -77,7 +77,7 @@ Versões declaradas em `package.json` (intervalos semver com `^`):
 ```
 .
 ├── public/
-│   └── logo.svg                     # logo vetorial usada como favicon e no cabeçalho
+│   └── logo.png                     # logo criada pelo aluno, usada como favicon e no cabeçalho
 ├── src/
 │   ├── main.tsx                     # ponto de entrada: createRoot + StrictMode
 │   ├── App.tsx                      # providers + BrowserRouter + Routes

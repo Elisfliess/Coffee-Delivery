@@ -13,7 +13,7 @@ export function Header() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link to="/" className="brand" aria-label="Coffee Delivery - página inicial">
-          <img src="/logo.svg" alt="" className="brand__logo" width={40} height={40} />
+          <img src="/logo.png" alt="" className="brand__logo" width={40} height={40} />
           <span className="brand__text">
             <strong>Coffee Delivery</strong>
             <small>café especial na sua porta</small>

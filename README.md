@@ -116,7 +116,7 @@ src/
 ├── pages/                  # HomePage, CheckoutPage, SuccessPage
 ├── styles/global.css       # tokens, componentes e media queries
 └── test/                   # setup, renderWithProviders e testes
-public/logo.svg             # logo vetorial e favicon
+public/logo.png             # logo criada pelo aluno, usada como favicon e no cabeçalho
 scripts/capture-evidence.mjs # capturas mobile (playwright-core)
 docs/AI_USAGE.md            # registro de uso de IA
 docs/evidence/              # 8 capturas PNG
@@ -220,4 +220,4 @@ Substitua os marcadores acima pelos links reais quando a publicação for conclu
 
 ## 🤖 Uso de IA
 
-O assistente OpenCode (modelo Big Pickle) apoiou planejamento, arquitetura, código, revisão de tipos, testes e documentação. Uma tentativa de gerar a logo com ferramenta de imagem falhou por credencial inválida; a logo final é um SVG original criado com apoio do assistente de desenvolvimento. Detalhes, prompts representativos e a distinção entre verificações automatizadas e itens pendentes de confirmação humana estão em `docs/AI_USAGE.md`.
+O assistente OpenCode (modelo Big Pickle) apoiou planejamento, arquitetura, código, revisão de tipos, testes e documentação. Uma tentativa de gerar a logo com ferramenta de imagem falhou por credencial inválida; a logo final foi criada pelo autor do projeto (`public/logo.png`) e integrada pelo assistente. Detalhes, prompts representativos e a distinção entre verificações automatizadas e itens pendentes de confirmação humana estão em `docs/AI_USAGE.md`.

@@ -34,7 +34,7 @@
 - [x] Criar `package.json` com scripts `dev`, `build`, `preview`, `test`, `test:watch`, `typecheck` e `evidence`.
 - [x] Configurar Vite 5 com `@vitejs/plugin-react`.
 - [x] Configurar TypeScript em modo estrito (`tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`).
-- [x] Criar `index.html` com `lang="pt-BR"`, favicon `/logo.svg`, viewport e descrição.
+- [x] Criar `index.html` com `lang="pt-BR"`, favicon `/logo.png`, viewport e descrição.
 - [x] Configurar Vitest 2 com jsdom, `globals: true`, `setupFiles` e `css: true`.
 - [x] Criar `.gitignore` para `node_modules`, `dist`, `.vite`, `coverage` e `.env`.
 - [x] Instalar dependências com `npm install`.
@@ -51,7 +51,7 @@
 - [x] Criar `CoffeeIllustration.tsx` com SVG parametrizado por cor.
 - [x] Criar `CoffeeCard.tsx` com tags, nome, descrição, preço e ação de adicionar.
 - [x] Criar `HomePage.tsx` com hero, benefícios textuais, filtros com `aria-pressed` e grid.
-- [x] Criar `logo.svg` original (xícara + motivação de entrega, paleta marrom/caramelo).
+- [x] Integrar a logo original criada pelo aluno como `public/logo.png` (substituindo o SVG provisório).
 
 **Critério de pronto:** catálogo exibe 8 itens e os 4 filtros alteram a grade.
 

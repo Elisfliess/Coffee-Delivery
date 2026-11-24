@@ -12,7 +12,7 @@ Manter a implementação e a documentação coerentes, previsíveis e verificáv
 
 - Assistente: **OpenCode**, modelo **Big Pickle**.
 - Função: apoio em planejamento, arquitetura, escrita de código, revisão de tipos, testes e documentação.
-- Gerador de imagem: tentativa de uso para a logo falhou por credencial inválida; a logo final é um SVG original criado com apoio do assistente de desenvolvimento. Ver `docs/AI_USAGE.md`.
+- Gerador de imagem: tentativa de uso para a logo falhou por credencial inválida; a logo final (`public/logo.png`) foi criada pelo autor do projeto e apenas integrada pelo assistente. Ver `docs/AI_USAGE.md`.
 
 ---
 
