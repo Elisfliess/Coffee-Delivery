@@ -119,7 +119,7 @@ Navega com uma mão, em telas estreitas. Precisa que os cards se reorganizem, qu
 | RNF-06 | Tipagem | TypeScript em modo estrito, sem variáveis e parâmetros não utilizados (`tsconfig.app.json`). |
 | RNF-07 | Testabilidade | Providers de teste com `MemoryRouter`, ambiente jsdom e limpeza de `localStorage` entre testes. |
 | RNF-08 | Simplicidade operacional | Aplicação estática, sem serviços externos obrigatórios para execução; pode ser servida como arquivos estáticos após build. |
-| RNF-09 | Identidade visual | Logo original criada pelo aluno em `public/logo.png` (PNG) e ilustrações SVG reutilizáveis em `CoffeeIllustration.tsx`; paleta marrom/caramelo via variáveis CSS. |
+| RNF-09 | Identidade visual | Logo original criada pelo aluno em `public/logo.png` (PNG com fundo transparente) e ilustrações SVG reutilizáveis em `CoffeeIllustration.tsx`; paleta marrom/caramelo via variáveis CSS. No tema escuro, um filtro CSS clareia a logo para manter contraste. |
 | RNF-10 | Qualidade do código | Build com `tsc -b && vite build` e suíte de 15 testes automatizados aprovada no estado entregue. |
 | RNF-11 | Evidências visuais | Capturas já presentes em `docs/evidence/`; as versões mobile podem ser regeneradas com `npm run evidence`, script opcional que depende de Chrome instalado e não participa do build nem dos testes. |
 
