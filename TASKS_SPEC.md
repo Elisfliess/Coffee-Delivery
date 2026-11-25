@@ -51,7 +51,7 @@
 - [x] Criar `CoffeeIllustration.tsx` com SVG parametrizado por cor.
 - [x] Criar `CoffeeCard.tsx` com tags, nome, descrição, preço e ação de adicionar.
 - [x] Criar `HomePage.tsx` com hero, benefícios textuais, filtros com `aria-pressed` e grid.
-- [x] Integrar a logo original criada pelo aluno como `public/logo.png` (substituindo o SVG provisório), remover o fundo e manter contraste no tema escuro.
+- [x] Integrar a logo original criada pelo aluno como `public/logo.png` (substituindo o SVG provisório).
 
 **Critério de pronto:** catálogo exibe 8 itens e os 4 filtros alteram a grade.
 

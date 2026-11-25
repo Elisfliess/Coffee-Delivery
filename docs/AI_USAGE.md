@@ -24,16 +24,16 @@
 | OpenCode (modelo Big Pickle) | Produzir documentação do projeto. | `PRD_SPEC.md`, `TECH_SPEC.md`, `TASKS_SPEC.md`, `AGENTS.md`, `README.md` e este registro. |
 | Gerador de imagem de IA | Tentativa de criar a logomarca. | **Falhou** por credencial inválida; não gerou asset utilizado. |
 | Autor do projeto (aluno) | Criar a logomarca definitiva. | `public/logo.png`: arquivo PNG criado pelo aluno, integrado ao cabeçalho e ao favicon pelo assistente. |
-| Assistente de IA de desenvolvimento | Integrar a logo, remover o fundo e adaptar a documentação. | Background convertido em transparência com preservação das bordas; ajuste de caminhos, contraste no tema escuro e registro da autoria real. |
+| Assistente de IA de desenvolvimento | Integrar a logo e adaptar a documentação. | Substituição do asset provisório, ajuste de caminhos e registro da autoria real. |
 
 ### 1.1 Sobre a logo
 
 A identidade visual final **não** veio do gerador de imagem de IA. Após a falha de autenticação da ferramenta, o próprio autor do projeto criou a logo e forneceu o arquivo `logo_cafeteria.png`, que foi versionado como `public/logo.png`:
 
-- `public/logo.png` — usado como favicon e no cabeçalho. O fundo original foi removido pelo assistente, gerando um PNG com transparência e bordas suaves; no tema escuro, um filtro CSS clareia a marca para manter contraste.
+- `public/logo.png` — usado como favicon e no cabeçalho.
 - `src/components/CoffeeIllustration.tsx` — ilustração vetorial paramétrica de cada embalagem, com cores vindas de `src/data/coffees.ts`, criada com apoio do assistente e mantida como complemento visual.
 
-A autoria da logomarca é do aluno; a IA atuou apenas na remoção do fundo, na integração técnica e na documentação.
+A autoria da logomarca é do aluno; a IA atuou apenas na integração técnica e na documentação.
 
 ---
 

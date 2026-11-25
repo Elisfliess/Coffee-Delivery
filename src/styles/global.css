@@ -119,10 +119,6 @@ a {
   object-fit: contain;
 }
 
-:root[data-theme='dark'] .brand__logo {
-  filter: brightness(0) invert(0.9);
-}
-
 .brand__text {
   display: flex;
   flex-direction: column;

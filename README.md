@@ -116,7 +116,7 @@ src/
 ├── pages/                  # HomePage, CheckoutPage, SuccessPage
 ├── styles/global.css       # tokens, componentes e media queries
 └── test/                   # setup, renderWithProviders e testes
-public/logo.png             # logo criada pelo aluno, com fundo transparente; favicon e cabeçalho
+public/logo.png             # logo criada pelo aluno, usada como favicon e no cabeçalho
 scripts/capture-evidence.mjs # capturas mobile (playwright-core)
 docs/AI_USAGE.md            # registro de uso de IA
 docs/evidence/              # 8 capturas PNG
