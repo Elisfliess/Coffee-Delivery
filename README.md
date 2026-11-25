@@ -2,7 +2,7 @@
 
 SPA de e-commerce para uma cafeteria fictícia. O cliente navega pelo catálogo, monta o carrinho, informa endereço e forma de pagamento e recebe uma confirmação com os dados do pedido — tudo no navegador, sem backend.
 
-**Status:** implementado. Verificações automatizadas executadas: `npm run typecheck`, `npm run build`, `npm test` (15 aprovados) e navegação automatizada em navegador para gerar evidências. As 8 capturas já estão em `docs/evidence/`; publicação e conferência humana ainda estão pendentes (ver `TASKS_SPEC.md`).
+**Status:** implementado. Verificações automatizadas executadas: `npm run typecheck`, `npm run build`, `npm test` (15 aprovados) e navegação automatizada em navegador para gerar evidências. As 8 capturas já estão em `docs/evidence/`; o repositório GitHub está publicado, enquanto o deploy e a conferência humana ainda estão pendentes (ver `TASKS_SPEC.md`).
 
 ---
 
@@ -211,7 +211,7 @@ Não há variáveis de ambiente obrigatórias. Para que as rotas profundas funci
 | Documentação | Concluída | `PRD_SPEC.md`, `TECH_SPEC.md`, `TASKS_SPEC.md`, `AGENTS.md`, `docs/AI_USAGE.md` |
 | Evidências visuais | Geradas | 8 PNGs em `docs/evidence/` |
 | Conferência humana | Pendente | Regras monetárias, textos, acessibilidade, imagens e registro de IA |
-| Repositório GitHub | Pendente | `URL_DO_REPOSITORIO` |
+| Repositório GitHub | Publicado | https://github.com/Elisfliess/Coffee-Delivery |
 | Deploy | Pendente | `URL_DO_DEPLOY` |
 
 Substitua os marcadores acima pelos links reais quando a publicação for concluída.

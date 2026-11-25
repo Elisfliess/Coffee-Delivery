@@ -7,7 +7,7 @@
 | Convenção | `[x]` concluído · `[ ]` pendente |
 | Estimativas | Em horas de trabalho; são estimativas de planejamento, não medições de execução |
 
-> Todo o código descrito aqui já foi implementado e as evidências visuais foram geradas. Pendem a publicação e a conferência humana de regras, textos, acessibilidade, imagens e registro de IA.
+> Todo o código descrito aqui já foi implementado, as evidências visuais foram geradas e o repositório GitHub foi publicado. Pendem o deploy e a conferência humana de regras, textos, acessibilidade, imagens e registro de IA.
 
 ---
 
@@ -23,7 +23,7 @@
 | 5. Testes e validação | Concluído | 3 h | 15 testes, typecheck e build |
 | 6. Documentação | Concluído | 3 h | PRD, TECH, TASKS, AGENTS, README e registro de IA |
 | 7. Evidências visuais | Concluído | 1 h | 8 PNGs em `docs/evidence/` e script `npm run evidence` |
-| 8. Publicação e conferência | **Pendente** | 1 h | GitHub, deploy, links e validação por pessoa |
+| 8. Publicação e conferência | **Parcialmente concluída** | 1 h | GitHub publicado; deploy, links de produção e validação por pessoa pendentes |
 
 **Total estimado:** 25 h (24 h concluídas, 1 h pendente).
 
@@ -151,10 +151,10 @@
 
 ---
 
-## 10. Fase 8 — Publicação e conferência — **Pendente** (≈ 1 h)
+## 10. Fase 8 — Publicação e conferência — **Parcialmente concluída** (≈ 1 h)
 
-- [ ] Criar repositório GitHub e fazer o push do projeto (sem `node_modules` e `dist`).
-- [ ] Preencher URL do repositório no `README.md`.
+- [x] Criar repositório GitHub e fazer o push do projeto (sem `node_modules` e `dist`): https://github.com/Elisfliess/Coffee-Delivery.
+- [x] Preencher URL do repositório no `README.md`.
 - [ ] Publicar no Vercel (ou Netlify) com `npm run build` e diretório `dist`.
 - [ ] Preencher URL de deploy no `README.md`.
 - [ ] Validar o deploy publicado com o checklist manual de `TECH_SPEC.md`.
